@@ -1,0 +1,95 @@
+body {
+    background-color: #FFCCBC;
+}
+
+h1 {
+    font-family:gaduji;
+    line-height:0.5px;
+    text-align: center;
+}
+
+@media screen and (min-device-width:768px) {
+    h1 {
+        font-size:45px;
+    }
+
+    .container {
+        width: 33%;
+        left: 33%;
+    }
+}
+
+#tagline {
+    font-family:gaduji;
+    font-size:17px;
+    color: #FB837D;
+    text-align: center;
+}
+
+.socialLink {
+    width:50px;
+    height:50px;
+}
+
+.container {
+    position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+#btn1 {
+    top: 14%;
+    left: 34%;
+}
+
+#btn2 {
+    top: 41%;
+    left: 37%;
+}
+#btn3 {
+    top: 55%;
+    left: 14%;
+}
+#btn4 {
+    top: 74%;
+    left: 33%;
+}
+#btn5 {
+    top: 14%;
+    left: 65.5%;
+}
+#btn6 {
+    top: 41%;
+    left: 63%;
+}
+#btn7 {
+    top: 55%;
+    left: 87%;
+}
+#btn8 {
+    top: 74%;
+    left: 66%;
+}
+
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
