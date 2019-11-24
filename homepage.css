@@ -93,3 +93,63 @@ h1 {
 .container .btn:hover {
   background-color: black;
 }
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 32vw;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  position: absolute;
+  z-index: 1;
+
+  top: -6vh;
+}
+
+.leftToolTip {
+  left: -42vw;
+}
+
+.rightToolTip {
+  right: -42vw;
+}
+
+#tooltip3 {
+    left: -36vw;
+}
+
+#tooltip7 {
+    right: -36vw;
+    background-color: #D76E9D;
+}
+
+#tooltip8 {
+    background-color: #ffae66;
+}
+
+#tooltip2 {
+    left: -43vw;
+}
+
+#tooltip5 {
+    background-color: #E87C66;
+}
+
+#tooltip6 {
+    right: -43vw;
+    background-color: #d8832e;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
